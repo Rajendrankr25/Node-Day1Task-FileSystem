@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT;
 
 app.get("/", function (request, response) {
-    response.send("Node server is up & running!!!");
+    response.send("Node server is up & running for Node Day1 Task - NodeJS File System!!!");
 });
 
 //Creating date and time
